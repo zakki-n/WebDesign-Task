@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="form-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>入力ホーム</title>
+    <title>入力フォーム</title>
 </head>
 
 <body>
     <h1>会員登録</h1>
 
-    <p>以下の情報を...</p>
+    <p>以下の情報を入力し、確認ボタンを押してください</p>
     <form action="#" method="post">
         <fieldset>
             <legend>お客様情報</legend>
@@ -31,15 +31,15 @@
             年齢<input type="number" name="age" min="0" max="30"> 歳<br>
 
             性別:
-            <label><input type="radio" name="gender" value="man"> 男</label>
-            <label><input type="radio" name="gender" value="women"> 女</label>
-            <label><input type="radio" name="gender" value="other"> その他<br></label>
+            <label><input type="radio" name="gender" value="0"> 男</label>
+            <label><input type="radio" name="gender" value="1"> 女</label>
+            <label><input type="radio" name="gender" value="2"> その他<br></label>
 
         </fieldset>
 
         <fieldset>
             <legend>パスワード</legend>
-            英数字8文字以上で入力してください<br><input type="password" name="user_pw"><br>
+            英数字8文字以上で入力してください<br><input type="password" name="password"><br>
 
             確認のためもう一度入力してください<br><input type="password" name="password_confirm"><br>
 
