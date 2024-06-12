@@ -1,0 +1,20 @@
+.gray {
+    background-color: #a59ea4;
+    color: white;
+    vertical-align: top;
+    text-align: left
+}
+
+.white {
+    background-color: #e5e5e5;
+}
+
+.red {
+    background-color: red;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.small{
+    font-size: 10px;
+}
