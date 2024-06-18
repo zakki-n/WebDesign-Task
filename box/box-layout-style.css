@@ -1,0 +1,51 @@
+.item {
+    width: 25%;
+    padding: 80px;
+    margin: 10px;
+    background-color: #e5e5e5;
+    text-align: center;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.i img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+a {
+    width: 50%;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #b2c1c4;
+    display: block;
+    text-decoration: cornsilk;
+    text-align: center;
+}
+
+
+h2 {
+    width: 90%;
+}
+
+p {
+    margin: 10px;
+}
